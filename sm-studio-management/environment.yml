@@ -1,0 +1,20 @@
+# To use:
+#   $ conda env create -f environment.yml
+#   $ conda activate <name>
+name: streamlit-sm-studio-admin-app
+dependencies:
+  - python=3.9
+  - pip
+  - nb_conda_kernels
+  - ipykernel
+  - ipywidgets
+  - gh
+  - opencv
+  - pip:
+    - matplotlib
+    - numpy
+    - streamlit
+    - requests
+    - boto3
+    - scikit-learn
+    - streamlit-aggrid 
